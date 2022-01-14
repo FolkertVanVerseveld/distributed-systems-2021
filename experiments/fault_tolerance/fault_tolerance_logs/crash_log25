@@ -1,0 +1,121 @@
+[115, 861, 891, 474, 296, 684, 227, 996, 104, 231, 380, 911, 67, 159, 479, 613, 67, 864, 543, 970, 676, 91, 167, 695, 142]
+recover time 0.5107753602787852 sec
+create "dummy0"
+create "dummy1"
+storing multi item
+create "dummy2"
+create "dummy3"
+2.0012078285217285 time has passed
+storing database
+create "dummy4"
+storing multi item
+restart
+recover time 0.5423169312998652 sec
+create "dummy3"
+create "dummy4"
+storing multi item
+create "dummy5"
+create "dummy6"
+2.0021090507507324 time has passed
+storing database
+create "dummy7"
+storing multi item
+restart
+create "dummy8"
+create "dummy9"
+2.0021462440490723 time has passed
+storing database
+create "dummy10"
+restart
+recover time 0.5441998327150941 sec
+create "dummy9"
+create "dummy10"
+storing multi item
+create "dummy11"
+create "dummy12"
+2.0021414756774902 time has passed
+storing database
+create "dummy13"
+storing multi item
+restart
+recover time 0.5610046917572618 sec
+create "dummy12"
+create "dummy13"
+storing multi item
+create "dummy14"
+create "dummy15"
+2.0021157264709473 time has passed
+storing database
+create "dummy16"
+restart
+recover time 0.5521501814946532 sec
+create "dummy15"
+create "dummy16"
+storing multi item
+create "dummy17"
+create "dummy18"
+2.0021750926971436 time has passed
+storing database
+create "dummy19"
+storing multi item
+restart
+recover time 0.5697891898453236 sec
+create "dummy18"
+create "dummy19"
+storing multi item
+create "dummy20"
+create "dummy21"
+2.0021018981933594 time has passed
+storing database
+create "dummy22"
+storing multi item
+restart
+recover time 0.5487613622099161 sec
+create "dummy21"
+create "dummy22"
+storing multi item
+create "dummy23"
+create "dummy24"
+sum: 11703
+storing multi item
+storing database
+uploader crashed 7 times
+verifying
+[115, 861, 891, 474, 296, 684, 227, 996, 104, 231, 380, 911, 67, 159, 479, 613, 67, 864, 543, 970, 676, 91, 167, 695, 142]
+download_missing: filename=1_0r5q1uheo0
+download_missing: filename=2_ulufzg0glq
+download_missing: filename=3_8g7v94dk0j
+download_missing: filename=4_uuxirexb50
+download_missing: filename=5_rvcbyisret
+download_missing: filename=6_hk5rt8bxem
+download_missing: filename=7_v2jmpgau81
+download_missing: filename=8_evy8kett9z
+download_missing: filename=9_r33wfpdqs6
+download_missing: filename=kvstore_database.pkl
+read "dummy0"
+read "dummy1"
+read "dummy2"
+read "dummy3"
+read "dummy4"
+read "dummy5"
+read "dummy6"
+read "dummy7"
+read "dummy8"
+read "dummy9"
+read "dummy10"
+read "dummy11"
+read "dummy12"
+read "dummy13"
+read "dummy14"
+read "dummy15"
+read "dummy16"
+read "dummy17"
+read "dummy18"
+read "dummy19"
+read "dummy20"
+read "dummy21"
+read "dummy22"
+read "dummy23"
+read "dummy24"
+sum: 11703
+

@@ -1,0 +1,114 @@
+[525, 507, 388, 434, 698, 294, 220, 837, 378, 836, 686, 991, 444, 142, 351, 832, 813, 419, 910, 1015, 578, 44, 815, 449, 214, 357, 11, 457, 490, 73, 19, 851, 729, 829, 900, 1015, 316, 938, 341, 879, 479, 671, 96, 332, 377, 523, 1002, 434, 800, 807]
+recover time 0.5188131518661976 sec
+create "dummy0"
+create "dummy1"
+create "dummy2"
+create "dummy3"
+create "dummy4"
+storing multi item
+create "dummy5"
+create "dummy6"
+create "dummy7"
+create "dummy8"
+2.002150535583496 time has passed
+storing database
+create "dummy9"
+storing multi item
+create "dummy10"
+restart
+recover time 0.6156755490228534 sec
+create "dummy11"
+create "dummy12"
+create "dummy13"
+create "dummy14"
+create "dummy15"
+storing multi item
+create "dummy16"
+create "dummy17"
+create "dummy18"
+create "dummy19"
+2.002150058746338 time has passed
+storing database
+create "dummy20"
+restart
+recover time 0.5606368789449334 sec
+create "dummy17"
+create "dummy18"
+create "dummy19"
+create "dummy20"
+create "dummy21"
+storing multi item
+create "dummy22"
+create "dummy23"
+create "dummy24"
+create "dummy25"
+2.0021400451660156 time has passed
+storing database
+create "dummy26"
+restart
+recover time 0.5632894625887275 sec
+create "dummy23"
+create "dummy24"
+create "dummy25"
+create "dummy26"
+create "dummy27"
+storing multi item
+create "dummy28"
+create "dummy29"
+create "dummy30"
+create "dummy31"
+2.0021626949310303 time has passed
+storing database
+create "dummy32"
+restart
+recover time 0.5531263034790754 sec
+create "dummy29"
+create "dummy30"
+create "dummy31"
+create "dummy32"
+create "dummy33"
+storing multi item
+create "dummy34"
+create "dummy35"
+create "dummy36"
+create "dummy37"
+2.002185106277466 time has passed
+storing database
+create "dummy38"
+restart
+recover time 0.5298235472291708 sec
+create "dummy35"
+create "dummy36"
+create "dummy37"
+create "dummy38"
+create "dummy39"
+storing multi item
+create "dummy40"
+create "dummy41"
+create "dummy42"
+create "dummy43"
+2.002171516418457 time has passed
+storing database
+create "dummy44"
+storing multi item
+create "dummy45"
+restart
+recover time 0.5543902181088924 sec
+create "dummy41"
+create "dummy42"
+create "dummy43"
+create "dummy44"
+create "dummy45"
+storing multi item
+create "dummy46"
+create "dummy47"
+create "dummy48"
+create "dummy49"
+sum: 27546
+storing multi item
+storing database
+uploader crashed 6 times
+verifying
+[525, 507, 388, 434, 698, 294, 220, 837, 378, 836, 686, 991, 444, 142, 351, 832, 813, 419, 910, 1015, 578, 44, 815, 449, 214, 357, 11, 457, 490, 73, 19, 851, 729, 829, 900, 1015, 316, 938, 341, 879, 479, 671, 96, 332, 377, 523, 1002, 434, 800, 807]
+sum: 27546
+

@@ -1,0 +1,44 @@
+#!/bin/bash -e
+# fault-tolerance experiment
+# to change experiment settings:
+#   change line 22 delay and
+#   line 15 upperbound of for loop
+# then just run as ./crash_test
+#
+# unfortunately, the program output is not processed automatically
+# we have attempted to implement this, but ran into technical issues
+# output data has to be processed manually
+
+>numbers
+
+# generate KV pairs
+for i in {1..100}; do
+	echo $((1 + RANDOM % 1024)) >>numbers
+done
+
+# experiment settings
+count=$(wc -l numbers | awk '{print $1}')
+z=124
+delay=0.1
+runs=0
+
+# force S3 bucket into known state
+python clear_s3.py
+
+# keep running uploader until it doesn't 'crash'
+# it is considered a crash when timeout fails
+while [[ $z -eq 124 ]]; do
+	set +e
+	timeout 3 python ./uploader.py numbers $delay
+	z=$?
+	set -e
+	runs=$((runs+1))
+	if [[ $z -eq 124 ]]; then
+		echo restart
+	fi
+done
+
+echo "uploader crashed $((runs-1)) times"
+echo verifying
+
+python downloader.py numbers $delay

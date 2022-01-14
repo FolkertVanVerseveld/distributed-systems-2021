@@ -1,0 +1,50 @@
+[942, 591, 37, 665, 118, 769, 2, 878, 422, 268]
+recover time 0.4903015801683068 sec
+create "dummy0"
+2.002213478088379 time has passed
+storing database
+create "dummy1"
+storing multi item
+restart
+recover time 0.6115178968757391 sec
+create "dummy3"
+2.0021109580993652 time has passed
+storing database
+create "dummy4"
+storing multi item
+restart
+recover time 0.567168059758842 sec
+create "dummy3"
+2.002188205718994 time has passed
+storing database
+create "dummy4"
+storing multi item
+restart
+recover time 0.6307159010320902 sec
+create "dummy6"
+2.0021660327911377 time has passed
+storing database
+create "dummy7"
+restart
+recover time 0.5591116258874536 sec
+create "dummy6"
+2.0021536350250244 time has passed
+storing database
+create "dummy7"
+storing multi item
+restart
+recover time 0.624748163856566 sec
+create "dummy9"
+sum: 4692
+storing multi item
+storing database
+uploader crashed 5 times
+verifying
+[942, 591, 37, 665, 118, 769, 2, 878, 422, 268]
+download_missing: filename=1_6t25420u0l
+download_missing: filename=2_wl4ayg58w5
+download_missing: filename=3_vd76v6x8er
+download_missing: filename=4_97whx6dfku
+download_missing: filename=kvstore_database.pkl
+sum: 4692
+

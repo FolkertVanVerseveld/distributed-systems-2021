@@ -1,0 +1,15 @@
+CREATE TABLE IF NOT EXISTS objects (
+    key VARCHAR PRIMARY KEY NOT NULL,
+    is_multi INTEGER DEFAULT 0,
+    part_of_multi INTEGER DEFAULT 0,
+    length INTEGER DEFAULT 0,
+    --hash VARCHAR NOT NULL,
+    created_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS partial_objects (
+    key VARCHAR PRIMARY KEY NOT NULL,
+    multi_key VARCHAR NOT NULL,
+    offset INTEGER DEFAULT 0
+)
+

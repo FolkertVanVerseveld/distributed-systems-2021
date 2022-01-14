@@ -1,0 +1,54 @@
+[877, 291, 160, 751, 488]
+recover time 0.508963443338871 sec
+create "dummy0"
+2.002129316329956 time has passed
+storing database
+create "dummy1"
+storing multi item
+restart
+recover time 0.652291645295918 sec
+create "dummy3"
+2.002197742462158 time has passed
+storing database
+create "dummy4"
+sum: 2567
+storing multi item
+restart
+recover time 0.5705487160012126 sec
+create "dummy3"
+2.0021893978118896 time has passed
+storing database
+create "dummy4"
+sum: 2567
+storing multi item
+storing database
+restart
+sum: 2567
+storing multi item
+Traceback (most recent call last):
+  File "./uploader.py", line 44, in <module>
+    main()
+  File "./uploader.py", line 40, in main
+    store_multi_item()
+  File "/home/methos/distributed_systems/kvstore/__init__.py", line 40, in store_multi_item
+    swap_multi_item()
+  File "/home/methos/distributed_systems/kvstore/watcher.py", line 14, in swap_multi_item
+    multi_item.upload()
+  File "/home/methos/distributed_systems/kvstore/item.py", line 112, in upload
+    upload_file(create_filename(self._key), data)
+  File "/home/methos/distributed_systems/kvstore/item.py", line 221, in create_filename
+    num = numerate_key(key)
+  File "/home/methos/distributed_systems/kvstore/database.py", line 43, in wrapper
+    return function(data, *args, **kwargs)
+  File "/home/methos/distributed_systems/kvstore/database.py", line 223, in numerate_key
+    raise KeyError('Key is not registered in database.')
+KeyError: 'Key is not registered in database.'
+uploader crashed 3 times
+verifying
+[877, 291, 160, 751, 488]
+download_missing: filename=1_e0if0psrhh
+download_missing: filename=2_zw9zjx3lam
+download_missing: num=2
+download_missing: filename=kvstore_database.pkl
+sum: 2567
+

@@ -1,0 +1,126 @@
+[719, 981, 752, 927, 68, 1006, 637, 395, 349, 634, 738, 242, 302, 448, 1001, 654, 757, 101, 185, 359]
+recover time 0.5000804681330919 sec
+create "dummy0"
+create "dummy1"
+storing multi item
+create "dummy2"
+2.002166986465454 time has passed
+storing database
+create "dummy3"
+restart
+[719, 981, 752, 927, 68, 1006, 637, 395, 349, 634, 738, 242, 302, 448, 1001, 654, 757, 101, 185, 359]
+download_missing: filename=1_uxzeuuak0y
+download_missing: filename=kvstore_database.pkl
+recover time 0.5397538971155882 sec
+create "dummy3"
+create "dummy4"
+storing multi item
+create "dummy5"
+2.0021939277648926 time has passed
+storing database
+create "dummy6"
+restart
+[719, 981, 752, 927, 68, 1006, 637, 395, 349, 634, 738, 242, 302, 448, 1001, 654, 757, 101, 185, 359]
+download_missing: filename=1_uxzeuuak0y
+download_missing: filename=2_j9iidsvexe
+download_missing: filename=kvstore_database.pkl
+recover time 0.5648530656471848 sec
+create "dummy6"
+create "dummy7"
+storing multi item
+create "dummy8"
+2.0021564960479736 time has passed
+storing database
+create "dummy9"
+restart
+[719, 981, 752, 927, 68, 1006, 637, 395, 349, 634, 738, 242, 302, 448, 1001, 654, 757, 101, 185, 359]
+download_missing: filename=1_uxzeuuak0y
+download_missing: filename=2_j9iidsvexe
+download_missing: filename=3_2ym6n5wupy
+download_missing: filename=kvstore_database.pkl
+recover time 0.5282829999923706 sec
+create "dummy9"
+create "dummy10"
+storing multi item
+create "dummy11"
+2.002171516418457 time has passed
+storing database
+create "dummy12"
+restart
+[719, 981, 752, 927, 68, 1006, 637, 395, 349, 634, 738, 242, 302, 448, 1001, 654, 757, 101, 185, 359]
+download_missing: filename=1_uxzeuuak0y
+download_missing: filename=2_j9iidsvexe
+download_missing: filename=3_2ym6n5wupy
+download_missing: filename=4_0qljy5bc0m
+download_missing: filename=kvstore_database.pkl
+recover time 0.5590802757069468 sec
+create "dummy12"
+create "dummy13"
+storing multi item
+create "dummy14"
+2.0021109580993652 time has passed
+storing database
+create "dummy15"
+restart
+[719, 981, 752, 927, 68, 1006, 637, 395, 349, 634, 738, 242, 302, 448, 1001, 654, 757, 101, 185, 359]
+download_missing: filename=1_uxzeuuak0y
+download_missing: filename=2_j9iidsvexe
+download_missing: filename=3_2ym6n5wupy
+download_missing: filename=4_0qljy5bc0m
+download_missing: filename=5_depbprxuj4
+download_missing: filename=kvstore_database.pkl
+recover time 0.5653645182028413 sec
+create "dummy15"
+create "dummy16"
+storing multi item
+create "dummy17"
+2.002155065536499 time has passed
+storing database
+create "dummy18"
+restart
+[719, 981, 752, 927, 68, 1006, 637, 395, 349, 634, 738, 242, 302, 448, 1001, 654, 757, 101, 185, 359]
+download_missing: filename=1_uxzeuuak0y
+download_missing: filename=2_j9iidsvexe
+download_missing: filename=3_2ym6n5wupy
+download_missing: filename=4_0qljy5bc0m
+download_missing: filename=5_depbprxuj4
+download_missing: filename=6_y30yhe8o1i
+download_missing: filename=kvstore_database.pkl
+recover time 0.5570106375962496 sec
+create "dummy18"
+create "dummy19"
+sum: 11255
+storing multi item
+storing database
+uploader crashed 6 times
+verifying
+[719, 981, 752, 927, 68, 1006, 637, 395, 349, 634, 738, 242, 302, 448, 1001, 654, 757, 101, 185, 359]
+download_missing: filename=1_uxzeuuak0y
+download_missing: filename=2_j9iidsvexe
+download_missing: filename=3_2ym6n5wupy
+download_missing: filename=4_0qljy5bc0m
+download_missing: filename=5_depbprxuj4
+download_missing: filename=6_y30yhe8o1i
+download_missing: filename=7_nmcxq4628f
+download_missing: filename=kvstore_database.pkl
+read "dummy0"
+read "dummy1"
+read "dummy2"
+read "dummy3"
+read "dummy4"
+read "dummy5"
+read "dummy6"
+read "dummy7"
+read "dummy8"
+read "dummy9"
+read "dummy10"
+read "dummy11"
+read "dummy12"
+read "dummy13"
+read "dummy14"
+read "dummy15"
+read "dummy16"
+read "dummy17"
+read "dummy18"
+read "dummy19"
+sum: 11255
