@@ -1,6 +1,8 @@
 # Lab assignment Distributed Systems 2021
 ## Group
-Design Sessions 5
+Implement a Key-Value Store Using AWS S3 2
+
+To setup the project, you have to add AWS S3 credential info at lines 14-16 in kvstore/s3.py
 
 Please note that when running equal scripts, one may need to run `clear_s3.py` to clear the data on S3, or handle the exception when a key-value pair is attempted to be created with a key that was already used previously.
 
